@@ -1,0 +1,13 @@
+C:\xampp\apache\conf\extra - vhost
+
+<VirtualHost *:80>
+  DocumentRoot "C:/xampp/htdocs/pc_2"
+  ServerName dev.enfrentamientoPokemon.com
+  <Directory "C:/xampp/htdocs/pc_2">
+    Require all granted
+  </Directory>
+</VirtualHost>
+
+C:\Windows\System32\drivers\etc - hosts
+
+127.0.0.1	dev.enfrentamientopokemon.com
